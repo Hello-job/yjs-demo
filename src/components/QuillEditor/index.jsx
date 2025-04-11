@@ -13,7 +13,7 @@ export default function App() {
    useEffect(() => {
     Quill.register('modules/cursors', QuillCursors)
 
-    const quill = new Quill(document.querySelector('#qull'), {
+    const quill = new Quill(document.querySelector('#quill'), {
       modules: {
         cursors: true,
         toolbar: [
@@ -48,7 +48,7 @@ export default function App() {
    }, [])
 
   return (
-    <div id='qull'></div>
+    <div id='quill'></div>
   )
 }
 
