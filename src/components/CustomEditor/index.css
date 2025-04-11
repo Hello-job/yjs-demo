@@ -1,0 +1,66 @@
+/* 应用容器样式 */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 头部样式 */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+/* 连接状态样式 */
+.connection-status {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.connected {
+  color: #4caf50;
+}
+
+.disconnected {
+  color: #f44336;
+}
+
+/* 编辑器容器样式 */
+.editor-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 400px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+/* 编辑器占位符样式 */
+.editor-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  color: #999;
+  font-style: italic;
+}
+
+/* 页脚样式 */
+.app-footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
